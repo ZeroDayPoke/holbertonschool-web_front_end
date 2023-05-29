@@ -57,17 +57,16 @@ h1, h2, h3, h4, h5, h6 {
     --section-title-color: var(--color-black);
 }
 
-body, a {
+body {
     color: var(--text-color);
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-base);
 }
 
 .card-category, .section-tagline {
     color: var(--color-primary);
-}
-
-body {
-    font-family: var(--font-family-base);
-    font-size: var(--font-size-medium);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -90,6 +89,11 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
     margin: var(--section-title-margin);
     color: var(--section-title-color);
+}
+
+a[href] {
+    color: var(--text-color);
+    text-decoration: none;
 }
 
 a[href]:visited {
