@@ -29,6 +29,12 @@
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
+    --section-padding: 5rem 0;
+    --section-header-padding: 0 0 3rem;
+    --section-body-padding: 0 0 3rem;
+    --section-footer-padding: 3rem 0 0;
+    --section-footer-align: center;
+    --footer-padding: 5rem 0 1rem;
 }
 
 html {
@@ -60,7 +66,12 @@ a:active, a[href]:active {
     background-color: var(--color-light-grey);
 }
 
+.section {
+    padding: var(--section-padding);
+}
+
 .section-header {
+    padding: var(--section-header-padding);
     text-align: var(--section-header-align);
 }
 
@@ -69,6 +80,12 @@ a:active, a[href]:active {
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
+}
+
+.container {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section-title {
@@ -88,7 +105,15 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
 }
 
-.container {
-    width: 960px;
-    margin: 0 auto;
+.section-body {
+    padding: var(--section-body-padding);
+}
+
+.section-footer {
+    padding: var(--section-footer-padding);
+    text-align: var(--section-footer-align);
+}
+
+.footer {
+    padding: var(--footer-padding);
 }
