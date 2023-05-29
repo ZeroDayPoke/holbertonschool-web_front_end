@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav .nav-link {
     display: block;
-    padding: calc(var(--font-size-medium) / 2) var(--font-size-medium);
+    padding: calc(var(--font-size-medium) / 2) var(--font-size-medium) calc(var(--font-size-medium) / 2) var(--font-size-medium);
 }
 
 .nav .nav-link:hover {
