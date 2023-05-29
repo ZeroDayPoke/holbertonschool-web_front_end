@@ -24,6 +24,10 @@ body {
     font-weight: var(--font-weight-regular);
 }
 
+a {
+    color: var(--text-color);
+}
+
 .section-tagline, .card-category {
     color: var(--color-primary);
 }
