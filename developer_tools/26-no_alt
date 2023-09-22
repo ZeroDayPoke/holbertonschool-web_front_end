@@ -4,3 +4,4 @@ Array.from(document.querySelectorAll("img:not([alt])"))
 
 ("img-fluid missing-alt");
 
+.img-fluid.missing-alt
