@@ -1,0 +1,6 @@
+Array.from(document.querySelectorAll("img:not([alt])"))
+  .map((img) => img.className)
+  .join(", ");
+
+("img-fluid missing-alt");
+
