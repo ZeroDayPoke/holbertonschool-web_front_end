@@ -1,0 +1,46 @@
+UI/UX - What is the role of a designer? What are their responsibilities?
+Whether you will work in small or large companies, you will team up with one or more Designers. In the tech industry, the role of a designer is to:
+
+help people successfully interact with the product or service;
+advocate the best experiences by crafting intuitive interactions;
+make the product look appealing to everyone who uses it and enjoyable to navigate through;
+understand business goals and technical limitations when creating their designs.
+They are highly skilled in these particular areas:
+
+visual and written communication
+qualitative and quantitative research
+information architecture
+wireframing and prototyping
+You may have heard of different “types” of designers. That is because some of them are generalists, whereas others specialize in a particular domain. Let’s clarify this, so you know whom to address your questions to:
+
+UX Designer
+(aka Interaction Designer, UI/UX Designer, or Experience Designer)
+
+UX Designers are generalists who can surface everything in the entire design process. In large companies, a UX designer typically teams up with other designers such as UX Researchers and Visual Designers. In smaller companies, it is common only to have one UI/UX Designer, who is handling the design process from the beginning to the end.
+
+Typical responsibilities:
+
+Conduct user interview to test an early prototype or final product (does not apply if the company is big enough to hire UX Researchers);
+Uncover user’s interaction pain points based on user research;
+Generate many ideas for the same problem to evaluate every possibility, good or bad.
+Prototype an early-stage idea with paper, and also final solutions with high-fidelity mockups;
+Build and maintain component libraries, style guides or design systems;
+Improve the designs by conducting usability and user tests.
+Product designer
+Product Designers have the same responsibilities as UX Designers, but they are also involved in the product strategy. They participate in planning the product roadmap with management stakeholders and make sure the designs can successfully be implemented by working closely with other teams such as marketing and development—while always keeping the business’ goals in mind.
+
+Visual designer
+(aka UI Designer or Graphic Designer)
+
+Visual Designers specialize in creating pixel-perfect prototypes and make sure that it is consistent with the rest of the product. Unlike UX or Product Designers, they are specialists that operate later in the design process, after the research and prototyping phases.
+
+Typical responsibilities:
+
+Design branding materials and guidelines that supply the product;
+Apply visual style guides and branding guidelines (ex: Spotify) to their designs;
+Use their knowledge of color theory, typography, Gestalt principles, and other design concepts to create pleasant-looking graphical user interfaces;
+Transform UX outputs into a flow of beautiful, easy-to-use and accessible pixel-perfect mockups; and eventually interactive prototype.
+Create and maintain a library of ready-to-use icons, colors, fonts and components across the product;
+Document design specifications, so the frontend developer can implement it with code.
+UX researcher
+By conducting quantitative and qualitative research, UX Researchers help other designers (UX, Visual) to understand their users better. They continuously test the designs, at every stage, to suggest design improvements to make sure the users’ needs are met.
