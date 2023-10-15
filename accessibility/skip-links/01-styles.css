@@ -342,12 +342,12 @@ a:active {
   white-space: nowrap;
 }
 
-.a11y-off-screen {
+.off-screen {
   left: -100vw;
   position: absolute;
 }
 
-.a11y-skip-link {
+.skip-link {
   background: var(--color-black);
   color: var(--color-white);
   left: 0;
@@ -360,7 +360,7 @@ a:active {
   transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
 }
 
-.a11y-skip-link:focus {
+.skip-link:focus {
   opacity: 1;
   transform: translateY(0);
 }
