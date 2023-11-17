@@ -38,14 +38,13 @@ function hideForm() {
 }
 
 function deleteCookiesAndShowForm() {
-  document.cookie =
-    "firstname=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-  document.cookie = "email=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+  Cookies.remove("firstname", { path: "" });
+  Cookies.remove("email", { path: "" });
   showForm();
 }
 
 function showWelcomeMessageOrForm() {
-  const firstname = getCookie("firstname");
+  const firstname = Cookies.get("firstname");
   if (firstname) {
     document.getElementById("username").textContent = firstname;
     document.getElementById("welcomeMessage").style.display = "block";
@@ -53,4 +52,14 @@ function showWelcomeMessageOrForm() {
   } else {
     showForm();
   }
+}
+
+function setCookiesAndShowWelcomeMessage() {
+  const firstname = document.getElementById("firstname").value;
+  const email = document.getElementById("email").value;
+
+  Cookies.set("firstname", firstname, { expires: 10, path: "" });
+  Cookies.set("email", email, { expires: 10, path: "" });
+
+  showWelcomeMessageOrForm();
 }
