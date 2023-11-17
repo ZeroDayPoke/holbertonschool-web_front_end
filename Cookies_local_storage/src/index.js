@@ -27,3 +27,30 @@ function getCookie(name) {
   }
   return "";
 }
+
+function showForm() {
+  document.getElementById("welcomeMessage").style.display = "none";
+  document.getElementById("loginForm").style.display = "block";
+}
+
+function hideForm() {
+  document.getElementById("loginForm").style.display = "none";
+}
+
+function deleteCookiesAndShowForm() {
+  document.cookie =
+    "firstname=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+  document.cookie = "email=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+  showForm();
+}
+
+function showWelcomeMessageOrForm() {
+  const firstname = getCookie("firstname");
+  if (firstname) {
+    document.getElementById("username").textContent = firstname;
+    document.getElementById("welcomeMessage").style.display = "block";
+    hideForm();
+  } else {
+    showForm();
+  }
+}

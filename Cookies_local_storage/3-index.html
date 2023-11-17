@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Yummy Cookies</title>
+    <style>
+      #welcomeMessage {
+        display: none;
+      }
+      #loginForm {
+        display: none;
+      }
+      #logoutLink {
+        font-weight: normal;
+        font-style: italic;
+        margin-left: 10px;
+      }
+    </style>
+  </head>
+  <body onload="showWelcomeMessageOrForm()">
+    <h1 id="welcomeMessage">
+      Welcome <span id="username"></span
+      ><a href="#" id="logoutLink" onclick="deleteCookiesAndShowForm()"
+        >logout</a
+      >
+    </h1>
+
+    <div id="loginForm">
+      <h2>Login</h2>
+      <input type="text" id="firstname" placeholder="First Name" />
+      <input type="text" id="email" placeholder="Email" />
+      <button onclick="setCookies()">Log me in</button>
+    </div>
+
+    <div id="cookieDisplay"></div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
